@@ -8,11 +8,11 @@ let hobbies = [
   "Reading",
   "Writing",
   "Cycling",
-  "Hiking",
+  "Watching",
   "Cooking",
   "Drawing",
   "Gaming",
-  "Gardening",
+  "Sports",
   "Photography",
   "Traveling"
 ];
@@ -20,5 +20,5 @@ let hobbies = [
 let index = 0;
 while (index < hobbies.length) {
   console.log(`Hobby ${index + 1}: ${hobbies[index]}`);
-  index++; // Increment the index after logging
+  index++;
 }
